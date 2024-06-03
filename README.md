@@ -10,7 +10,7 @@
 ### Prerequisites
 
 - Node.js (version 18.18.0)
-- npm (version 8.11.0) 
+- npm (version 9.8.1) 
 - Docker
 - Docker Compose 
 
