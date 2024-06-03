@@ -24,18 +24,24 @@
 * npm install axios class-validator sqlite3 typeorm
 
 
-## Running the app
+### Running the app
 
 ```bash
 # development
+
 $ npm run start
+
+## View the app
+
+* GET content from Wikipedia: http://localhost:3000/feed?year=2024&month=05&day=08 
+ (date can be changed to GET different featured contents from Wikipedia)
+
+* GET translated content : http://localhost:3000/feed/translate/es?year=2024&month=06&day=01
+ (change date accordingly to see translation from different dates)
 
 # watch mode
 $ npm run start:dev
 
-# production mode
-$ npm run start:prod
-```
 
 ## Test
 
